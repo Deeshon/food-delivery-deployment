@@ -1,0 +1,43 @@
+POST http://localhost:3001/api/user/signup
+Content-Type: application/json
+
+{
+    "username": "aaranDeeshon",
+    "password": "nyctophile101"
+}
+
+###
+POST http://localhost:3001/api/categories
+Content-Type: application/json
+
+{
+    "title": "Chicken"
+}
+
+
+###
+GET http://localhost:3001/api/categories
+
+
+###
+POST http://localhost:3001/api/category/items
+Content-Type: application/json
+
+{
+    "category": "647a3f74d07853673e15d55c"
+}
+
+###
+POST http://localhost:3001/api/cart/item
+Content-Type: application/json
+
+{
+    "item": "647a4f471d5437b6d4536761"
+}
+
+###
+GET http://localhost:3001/api/cart
+
+
+## 
+DELETE http://localhost:3001/api/cart
